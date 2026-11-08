@@ -1,0 +1,18 @@
+# 运行配置（含 App Secret，不要提交到版本库）
+config.toml
+config.local.toml
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# 编辑器 / 系统
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

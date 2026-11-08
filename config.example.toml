@@ -1,0 +1,14 @@
+[plugin]
+enabled = false
+config_version = "0.1.0"
+
+[feishu]
+app_id = ""
+app_secret = ""
+domain = "https://open.feishu.cn"
+proxy_url = ""
+receive_group_message = false
+group_name_enabled = true
+max_download_mb = 10
+request_timeout_sec = 30
+reconnect_delay_sec = 5.0
