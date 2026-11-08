@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 1180 700" role="img" aria-label="MaiBot 飞书适配器消息链路">
+  <title>MaiBot 飞书适配器消息链路</title>
+  <defs>
+    <style>
+      .edge { fill:none; stroke:#0EA5E9; stroke-width:1.6; stroke-linecap:round; stroke-linejoin:round; }
+      .edge-back { fill:none; stroke:#FDBA74; stroke-width:1.6; stroke-linecap:round; stroke-linejoin:round; }
+      .gt { fill:#64748B; font-size:13px; font-weight:600; font-family:Microsoft YaHei UI, Microsoft YaHei, PingFang SC, Noto Sans CJK SC, Arial, sans-serif; }
+    </style>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#0EA5E9"/>
+    </marker>
+    <marker id="arrow-back" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#FDBA74"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="1180" height="700" fill="#FFFFFF"/>
+  <text x="40" y="52" font-size="19" font-weight="700" fill="#1E293B" font-family="Microsoft YaHei UI, Microsoft YaHei, PingFang SC, Noto Sans CJK SC, Arial, sans-serif">&#x98DE;&#x4E66;&#x9002;&#x914D;&#x5668;&#x6D88;&#x606F;&#x94FE;&#x8DEF;</text>
+  <text x="40" y="74" font-size="12.5" fill="#64748B" font-family="Microsoft YaHei UI, Microsoft YaHei, PingFang SC, Noto Sans CJK SC, Arial, sans-serif">&#x957F;&#x8FDE;&#x63A5;&#x6A21;&#x5F0F; &#x00B7; &#x65E0;&#x9700;&#x516C;&#x7F51;&#x5730;&#x5740; &#x00B7; &#x56FE;&#x7247;&#x7ECF;&#x6D88;&#x606F;&#x8D44;&#x6E90;&#x63A5;&#x53E3;&#x4E0B;&#x8F7D;&#x540E;&#x4EA4;&#x7ED9;&#x4E3B;&#x7A0B;&#x5E8F;&#x591A;&#x6A21;&#x6001;&#x8BC6;&#x522B;</text>
+  <!-- edges -->
+  <g>
+<path d="M 190 210 L 190 290" class="edge" marker-end="url(#arrow)"/>
+<path d="M 325 320 L 430 320" class="edge" marker-end="url(#arrow)"/>
+<path d="M 565 210 L 565 290" class="edge" marker-end="url(#arrow)"/>
+<path d="M 700 320 L 830 320" class="edge" marker-end="url(#arrow)"/>
+<path d="M 965 210 L 965 290" class="edge" marker-end="url(#arrow)"/>
+<path d="M 965 350 L 965 410" class="edge" marker-end="url(#arrow)"/>
+<path d="M 965 470 L 965 560" class="edge" marker-end="url(#arrow)"/>
+    <path d="M 830 590 L 700 590" class="edge-back" marker-end="url(#arrow-back)"/>
+    <path d="M 430 590 L 325 590" class="edge-back" marker-end="url(#arrow-back)"/>
+  </g>
+  <!-- groups -->
+  <rect x="40" y="94" width="300" height="406" rx="12" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.2"/>
+  <text x="58" y="122" class="gt">&#x98DE;&#x4E66;&#x4FA7;</text>
+  <text x="58" y="140" font-size="11" fill="#64748B" font-family="Microsoft YaHei UI, Microsoft YaHei, PingFang SC, Noto Sans CJK SC, Arial, sans-serif">&#x5F00;&#x653E;&#x5E73;&#x53F0; &#x00B7; &#x957F;&#x8FDE;&#x63A5;</text>
+  <rect x="390" y="94" width="350" height="406" rx="12" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.2"/>
+  <text x="408" y="122" class="gt">&#x9002;&#x914D;&#x5668;&#x63D2;&#x4EF6;</text>
+  <text x="408" y="140" font-size="11" fill="#64748B" font-family="Microsoft YaHei UI, Microsoft YaHei, PingFang SC, Noto Sans CJK SC, Arial, sans-serif">souknow.feishu-adapter</text>
+  <rect x="790" y="94" width="350" height="406" rx="12" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.2"/>
+  <text x="808" y="122" class="gt">MaiBot &#x4E3B;&#x7A0B;&#x5E8F;</text>
+  <text x="808" y="140" font-size="11" fill="#64748B" font-family="Microsoft YaHei UI, Microsoft YaHei, PingFang SC, Noto Sans CJK SC, Arial, sans-serif">&#x56FE;&#x7247;&#x7406;&#x89E3; &#x00B7; &#x4E0A;&#x4E0B;&#x6587; &#x00B7; &#x89C4;&#x5212;</text>
+  <rect x="40" y="520" width="1100" height="140" rx="12" fill="#FFF7ED" stroke="#FDBA74" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <text x="58" y="546" class="gt">&#x51FA;&#x7AD9;&#x56DE;&#x590D;</text>
+  <!-- nodes -->
+<rect x="55" y="150" width="270" height="60" rx="10" fill="#CFFAFE" stroke="#0891B2" stroke-width="1.6"/>
+    <text x="190" y="175" text-anchor="middle" font-size="14" font-weight="600" fill="#1E293B" font-family="Microsoft YaHei UI, Microsoft YaHei, PingFang SC, Noto Sans CJK SC, Arial, sans-serif">&#x7528;&#x6237;&#x5728;&#x98DE;&#x4E66;&#x53D1;&#x6D88;&#x606F;</text>
+    <text x="190" y="195" text-anchor="middle" font-size="11.5" fill="#64748B" font-family="Microsoft YaHei UI, Microsoft YaHei, PingFang SC, Noto Sans CJK SC, Arial, sans-serif">&#x6587;&#x672C; &#x00B7; @&#x63D0;&#x53CA; &#x00B7; &#x56FE;&#x6587;&#x6DF7;&#x6392;</text>
+<rect x="55" y="290" width="270" height="60" rx="10" fill="#CFFAFE" stroke="#0891B2" stroke-width="1.6"/>
+    <text x="190" y="315" text-anchor="middle" font-size="14" font-weight="600" fill="#1E293B" font-family="Microsoft YaHei UI, Microsoft YaHei, PingFang SC, Noto Sans CJK SC, Arial, sans-serif">&#x98DE;&#x4E66;&#x5F00;&#x653E;&#x5E73;&#x53F0;</text>
+    <text x="190" y="335" text-anchor="middle" font-size="11.5" fill="#64748B" font-family="Microsoft YaHei UI, Microsoft YaHei, PingFang SC, Noto Sans CJK SC, Arial, sans-serif">im.message.receive_v1 &#x4E8B;&#x4EF6;&#x63A8;&#x9001;</text>
+<rect x="430" y="150" width="270" height="60" rx="10" fill="#E0F2FE" stroke="#0EA5E9" stroke-width="1.6"/>
+    <text x="565" y="175" text-anchor="middle" font-size="14" font-weight="600" fill="#1E293B" font-family="Microsoft YaHei UI, Microsoft YaHei, PingFang SC, Noto Sans CJK SC, Arial, sans-serif">&#x4E8B;&#x4EF6;&#x89E3;&#x7801; codec.py</text>
+    <text x="565" y="195" text-anchor="middle" font-size="11.5" fill="#64748B" font-family="Microsoft YaHei UI, Microsoft YaHei, PingFang SC, Noto Sans CJK SC, Arial, sans-serif">&#x8FD8;&#x539F;&#x5BCC;&#x6587;&#x672C; &#x00B7; @ &#x00B7; &#x5F15;&#x7528;&#x56DE;&#x590D;</text>
+<rect x="430" y="290" width="270" height="60" rx="10" fill="#E0F2FE" stroke="#0EA5E9" stroke-width="1.6"/>
+    <text x="565" y="315" text-anchor="middle" font-size="14" font-weight="600" fill="#1E293B" font-family="Microsoft YaHei UI, Microsoft YaHei, PingFang SC, Noto Sans CJK SC, Arial, sans-serif">&#x56FE;&#x7247;&#x4E0B;&#x8F7D;</text>
+    <text x="565" y="335" text-anchor="middle" font-size="11.5" fill="#64748B" font-family="Microsoft YaHei UI, Microsoft YaHei, PingFang SC, Noto Sans CJK SC, Arial, sans-serif">messages/{id}/resources/{key}</text>
+<rect x="830" y="150" width="270" height="60" rx="10" fill="#DCFCE7" stroke="#16A34A" stroke-width="1.6"/>
+    <text x="965" y="175" text-anchor="middle" font-size="14" font-weight="600" fill="#1E293B" font-family="Microsoft YaHei UI, Microsoft YaHei, PingFang SC, Noto Sans CJK SC, Arial, sans-serif">&#x56FE;&#x7247;&#x843D;&#x76D8;</text>
+    <text x="965" y="195" text-anchor="middle" font-size="11.5" fill="#64748B" font-family="Microsoft YaHei UI, Microsoft YaHei, PingFang SC, Noto Sans CJK SC, Arial, sans-serif">data/images/&lt;sha256&gt;.png</text>
+<rect x="830" y="290" width="270" height="60" rx="10" fill="#DCFCE7" stroke="#16A34A" stroke-width="1.6"/>
+    <text x="965" y="315" text-anchor="middle" font-size="14" font-weight="600" fill="#1E293B" font-family="Microsoft YaHei UI, Microsoft YaHei, PingFang SC, Noto Sans CJK SC, Arial, sans-serif">VLM &#x8BC6;&#x56FE;</text>
+    <text x="965" y="335" text-anchor="middle" font-size="11.5" fill="#64748B" font-family="Microsoft YaHei UI, Microsoft YaHei, PingFang SC, Noto Sans CJK SC, Arial, sans-serif">&#x5F97;&#x5230; [&#x56FE;&#x7247;&#xFF1A;&#x63CF;&#x8FF0;]</text>
+<rect x="830" y="410" width="270" height="60" rx="10" fill="#DCFCE7" stroke="#16A34A" stroke-width="1.6"/>
+    <text x="965" y="435" text-anchor="middle" font-size="14" font-weight="600" fill="#1E293B" font-family="Microsoft YaHei UI, Microsoft YaHei, PingFang SC, Noto Sans CJK SC, Arial, sans-serif">&#x63CF;&#x8FF0;&#x6CE8;&#x5165;&#x4E0A;&#x4E0B;&#x6587;</text>
+    <text x="965" y="455" text-anchor="middle" font-size="11.5" fill="#64748B" font-family="Microsoft YaHei UI, Microsoft YaHei, PingFang SC, Noto Sans CJK SC, Arial, sans-serif">&#x89C4;&#x5212;&#x5668;&#x80FD;&#x76F4;&#x63A5;&#x8BFB;&#x5230;&#x56FE;&#x7247;&#x5185;&#x5BB9;</text>
+<rect x="830" y="560" width="270" height="60" rx="10" fill="#DCFCE7" stroke="#16A34A" stroke-width="1.6"/>
+    <text x="965" y="585" text-anchor="middle" font-size="14" font-weight="600" fill="#1E293B" font-family="Microsoft YaHei UI, Microsoft YaHei, PingFang SC, Noto Sans CJK SC, Arial, sans-serif">Planner / Replyer</text>
+    <text x="965" y="605" text-anchor="middle" font-size="11.5" fill="#64748B" font-family="Microsoft YaHei UI, Microsoft YaHei, PingFang SC, Noto Sans CJK SC, Arial, sans-serif">&#x751F;&#x6210;&#x56DE;&#x590D;</text>
+<rect x="430" y="560" width="270" height="60" rx="10" fill="#E0F2FE" stroke="#0EA5E9" stroke-width="1.6"/>
+    <text x="565" y="585" text-anchor="middle" font-size="14" font-weight="600" fill="#1E293B" font-family="Microsoft YaHei UI, Microsoft YaHei, PingFang SC, Noto Sans CJK SC, Arial, sans-serif">&#x51FA;&#x7AD9;&#x7F16;&#x7801; encode_outbound</text>
+    <text x="565" y="605" text-anchor="middle" font-size="11.5" fill="#64748B" font-family="Microsoft YaHei UI, Microsoft YaHei, PingFang SC, Noto Sans CJK SC, Arial, sans-serif">&#x4E0A;&#x4F20;&#x56FE;&#x7247; &#x00B7; &#x6587;&#x672C;&#x5206;&#x7247;</text>
+<rect x="55" y="560" width="270" height="60" rx="10" fill="#CFFAFE" stroke="#0891B2" stroke-width="1.6"/>
+    <text x="190" y="585" text-anchor="middle" font-size="14" font-weight="600" fill="#1E293B" font-family="Microsoft YaHei UI, Microsoft YaHei, PingFang SC, Noto Sans CJK SC, Arial, sans-serif">&#x98DE;&#x4E66;&#x53D1;&#x6D88;&#x606F;&#x63A5;&#x53E3;</text>
+    <text x="190" y="605" text-anchor="middle" font-size="11.5" fill="#64748B" font-family="Microsoft YaHei UI, Microsoft YaHei, PingFang SC, Noto Sans CJK SC, Arial, sans-serif">&#x7528;&#x6237;&#x6536;&#x5230;&#x56DE;&#x590D;</text>
+</svg>

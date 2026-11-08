@@ -4,7 +4,18 @@
 
 使用 **长连接（WebSocket）** 模式，不需要公网 IP、域名或回调地址，服务器放在内网也能收消息。
 
-![飞书适配器在 WebUI 中的连接状态](docs/screenshot.png)
+![飞书适配器消息链路](docs/architecture.svg)
+
+### 消息链路
+
+```
+飞书用户消息
+  → 飞书开放平台 (im.message.receive_v1 长连接推送)
+  → 适配器事件解码 (文本 / @提及 / 引用 / 富文本)
+  → 图片下载 (messages/{message_id}/resources/{file_key})
+  → MaiBot 图片落盘 → VLM 识图 → 描述注入上下文 → Planner / Replyer
+  → 适配器出站编码 → 飞书发消息接口 → 用户收到回复
+```
 
 ## 特性
 
